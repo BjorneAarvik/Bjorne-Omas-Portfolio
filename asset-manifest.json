@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.ee5a1285.chunk.css",
+    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.e513f5d6.chunk.js",
+    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.e513f5d6.chunk.js.map",
+    "runtime-main.js": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js",
+    "runtime-main.js.map": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js.map",
+    "static/js/2.ab855ea2.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.ab855ea2.chunk.js",
+    "static/js/2.ab855ea2.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/2.ab855ea2.chunk.js.map",
+    "static/js/3.b39c07a9.chunk.js": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js",
+    "static/js/3.b39c07a9.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js.map",
+    "index.html": "/Bjorne-Omas-Portfolio/index.html",
+    "static/css/main.ee5a1285.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.ee5a1285.chunk.css.map",
+    "static/js/2.ab855ea2.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.ab855ea2.chunk.js.LICENSE.txt",
+    "static/media/Crank03.ceebe8f6.PNG": "/Bjorne-Omas-Portfolio/static/media/Crank03.ceebe8f6.PNG",
+    "static/media/CrankTheCoal.c6ed378c.PNG": "/Bjorne-Omas-Portfolio/static/media/CrankTheCoal.c6ed378c.PNG",
+    "static/media/Jolaspelet.e9b2db5b.PNG": "/Bjorne-Omas-Portfolio/static/media/Jolaspelet.e9b2db5b.PNG",
+    "static/media/Klimakalkulator.ed21dff9.PNG": "/Bjorne-Omas-Portfolio/static/media/Klimakalkulator.ed21dff9.PNG",
+    "static/media/TurnBased.bc104423.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBased.bc104423.PNG",
+    "static/media/avatarImage.4317f6b6.jpg": "/Bjorne-Omas-Portfolio/static/media/avatarImage.4317f6b6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12161a38.js",
+    "static/js/2.ab855ea2.chunk.js",
+    "static/css/main.ee5a1285.chunk.css",
+    "static/js/main.e513f5d6.chunk.js"
+  ]
+}
