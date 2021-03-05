@@ -1,22 +1,23 @@
 import NavBar from "./components/navBar";
-import Header from "./components/header";
-import Projects from "./pages/projects";
-import Skills from "./pages/skills";
-import About from "./pages/about";
 import "./assets/styles.css";
 import { HashRouter as Router, Route } from "react-router-dom";
+import Home from "./components/home";
+import Projects from "./components/projects";
+import crankTheCoal from "./components/crankTheCoal";
+import jolaspelet from "./components/jolaspelet";
+import About from "./components/about";
 
 function App() {
   return (
     <Router basename="/">
       <div className="App">
-        <Header />
+        <Home />
         <NavBar />
-        <div className="content">
-          <Route exact path="/" component={Projects} />
-          <Route exact path="/skills" component={Skills} />
-          <Route exact path="/about" component={About} />
-        </div>
+        <div id="projectPlacement" />
+        <Route exact path="/" component={Projects} />
+        <Route exact path="/crankTheCoal" component={crankTheCoal} />
+        <Route exact path="/crankTheCoal" component={jolaspelet} />
+        <About />
       </div>
     </Router>
   );

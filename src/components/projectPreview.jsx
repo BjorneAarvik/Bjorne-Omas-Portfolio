@@ -1,12 +1,17 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
-const ProjectPreview = ({ image, title, description }) => {
+const ProjectPreview = ({ image, title, description, url }) => {
   return (
-    <div className="projectPreview">
-      <h1>{title}</h1>
-      <p>{description}</p>
-      <img className="projectPreviewImage" src={image} />
-    </div>
+    <Link to={url}>
+      <span style={{ display: "block" }}>
+        <div className="projectPreview">
+          <img className="projectPreviewImage" src={image} />
+          <p className="projectPreviewTitle">{title}</p>
+          <p className="projectPreviewText">{description}</p>
+          <p className="clickToSeeMore">Click To Read More</p>
+        </div>
+      </span>
+    </Link>
   );
 };
 
