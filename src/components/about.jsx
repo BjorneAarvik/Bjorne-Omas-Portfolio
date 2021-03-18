@@ -15,7 +15,10 @@ const About = () => {
           </p>
           <p>
             bjorneoma@gmail.com <br />
-            95784182
+            957 84 182 <br />
+            <a href="https://www.linkedin.com/in/bjørne-oma/" target="_blank">
+              LinkedIn
+            </a>
           </p>
         </div>
         <div className="aboutSkills">

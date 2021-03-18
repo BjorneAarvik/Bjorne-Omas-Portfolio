@@ -5,6 +5,8 @@ import Home from "./components/home";
 import Projects from "./components/projects";
 import crankTheCoal from "./components/crankTheCoal";
 import jolaspelet from "./components/jolaspelet";
+import Tower from "./components/theTower";
+import ClimateCalculator from "./components/climateCalculator";
 import About from "./components/about";
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         <div id="projectPlacement" />
         <Route exact path="/" component={Projects} />
         <Route exact path="/crankTheCoal" component={crankTheCoal} />
-        <Route exact path="/crankTheCoal" component={jolaspelet} />
+        <Route exact path="/jolaspelet" component={jolaspelet} />
+        <Route exact path="/theTower" component={Tower} />
+        <Route exact path="/climateCalculator" component={ClimateCalculator} />
         <About />
       </div>
     </Router>

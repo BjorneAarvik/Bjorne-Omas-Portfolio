@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 20px;
   background-color: #181621;
   color: #ecebee;
@@ -11,6 +11,21 @@ h1 {
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 0;
   text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  margin-top: 2px;
+}
+
+a {
+  color: #5def5d;
 }
 
 .sectionHeader {
@@ -18,10 +33,6 @@ h1 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 200;
   padding-top: 150px;
-}
-
-h2 {
-  font-size: 24px;
 }
 
 .myWorkButton {
@@ -58,12 +69,12 @@ h2 {
   border-bottom: #7f81f6 solid;
 }
 
-.navBar ul li {
+.navBar li {
   display: inline;
   height: 50px;
 }
 
-.navBar ul li a {
+.navBar a {
   text-decoration: none;
   color: #ecf2fa;
   font-size: 20px;
@@ -75,7 +86,7 @@ h2 {
   cursor: pointer;
 }
 
-.navBar ul li a:hover {
+.navBar a:hover {
   color: #7f81f6;
 }
 
@@ -150,11 +161,8 @@ h2 {
   top: 88%;
   left: 50%;
   font-size: 16px;
-  transform: translate(-50%, -50%);
-}
-
-.clickToSeeMore {
   color: transparent;
+  transform: translate(-50%, -50%);
 }
 
 .projectPreview:hover .clickToSeeMore {
@@ -170,10 +178,51 @@ h2 {
   width: 40%;
 }
 
+.project .sectionHeader {
+  margin-bottom: 40px;
+}
+
 .project p {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.project img {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.project video {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.project .dirRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project .dirRow p {
+  width: 45%;
+}
+
+.project .dirRow img {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.project .dirRow video {
+  width: 45%;
+  padding-right: 5%;
+}
+
+.tripleImage {
+  display: flex;
+  flex-direction: row;
+}
+
+.tripleImage img {
+  width: 33%;
 }
 
 #about {

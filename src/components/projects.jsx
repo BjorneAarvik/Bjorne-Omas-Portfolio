@@ -25,14 +25,14 @@ const Projects = () => {
       title: "CLIMATE CALCULATOR",
       description: "Climate Calculator prototype made for NRK",
       image: klimakalkulator,
-      url: "/klimakalkulator",
+      url: "/climateCalculator",
       id: 3,
     },
     {
-      title: "TURN BASED GAME",
+      title: "THE TOWER",
       description: "Turn based puzzle game",
       image: turnBased,
-      url: "/turnBased",
+      url: "/theTower",
       id: 4,
     },
   ]);
