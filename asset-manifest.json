@@ -1,28 +1,39 @@
 {
   "files": {
-    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.ee5a1285.chunk.css",
-    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.e513f5d6.chunk.js",
-    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.e513f5d6.chunk.js.map",
+    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.047cee0e.chunk.css",
+    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.f32e9863.chunk.js",
+    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.f32e9863.chunk.js.map",
     "runtime-main.js": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js",
     "runtime-main.js.map": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js.map",
-    "static/js/2.ab855ea2.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.ab855ea2.chunk.js",
-    "static/js/2.ab855ea2.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/2.ab855ea2.chunk.js.map",
+    "static/js/2.bad4dd40.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js",
+    "static/js/2.bad4dd40.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js.map",
     "static/js/3.b39c07a9.chunk.js": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js",
     "static/js/3.b39c07a9.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js.map",
     "index.html": "/Bjorne-Omas-Portfolio/index.html",
-    "static/css/main.ee5a1285.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.ee5a1285.chunk.css.map",
-    "static/js/2.ab855ea2.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.ab855ea2.chunk.js.LICENSE.txt",
+    "static/css/main.047cee0e.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.047cee0e.chunk.css.map",
+    "static/js/2.bad4dd40.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js.LICENSE.txt",
+    "static/media/CamperSitting.bb5f2b9d.mp4": "/Bjorne-Omas-Portfolio/static/media/CamperSitting.bb5f2b9d.mp4",
+    "static/media/Climate01.2258a5da.png": "/Bjorne-Omas-Portfolio/static/media/Climate01.2258a5da.png",
+    "static/media/Climate02.133f204a.png": "/Bjorne-Omas-Portfolio/static/media/Climate02.133f204a.png",
+    "static/media/Climate03.caa934f7.png": "/Bjorne-Omas-Portfolio/static/media/Climate03.caa934f7.png",
     "static/media/Crank03.ceebe8f6.PNG": "/Bjorne-Omas-Portfolio/static/media/Crank03.ceebe8f6.PNG",
-    "static/media/CrankTheCoal.c6ed378c.PNG": "/Bjorne-Omas-Portfolio/static/media/CrankTheCoal.c6ed378c.PNG",
+    "static/media/CrankCatapult.e65b1174.png": "/Bjorne-Omas-Portfolio/static/media/CrankCatapult.e65b1174.png",
+    "static/media/CrankTheCoal.0f2beb27.PNG": "/Bjorne-Omas-Portfolio/static/media/CrankTheCoal.0f2beb27.PNG",
+    "static/media/CrankTrello.828d6fa2.PNG": "/Bjorne-Omas-Portfolio/static/media/CrankTrello.828d6fa2.PNG",
+    "static/media/Idle.fae493c2.mp4": "/Bjorne-Omas-Portfolio/static/media/Idle.fae493c2.mp4",
     "static/media/Jolaspelet.e9b2db5b.PNG": "/Bjorne-Omas-Portfolio/static/media/Jolaspelet.e9b2db5b.PNG",
     "static/media/Klimakalkulator.ed21dff9.PNG": "/Bjorne-Omas-Portfolio/static/media/Klimakalkulator.ed21dff9.PNG",
+    "static/media/Run.805b57c2.mp4": "/Bjorne-Omas-Portfolio/static/media/Run.805b57c2.mp4",
     "static/media/TurnBased.bc104423.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBased.bc104423.PNG",
-    "static/media/avatarImage.4317f6b6.jpg": "/Bjorne-Omas-Portfolio/static/media/avatarImage.4317f6b6.jpg"
+    "static/media/TurnBasedLevelLayout.47e02d48.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBasedLevelLayout.47e02d48.PNG",
+    "static/media/avatarImage.4317f6b6.jpg": "/Bjorne-Omas-Portfolio/static/media/avatarImage.4317f6b6.jpg",
+    "static/media/tower_Level1.e95f308a.mp4": "/Bjorne-Omas-Portfolio/static/media/tower_Level1.e95f308a.mp4",
+    "static/media/tower_LevelEditor.533acaa3.mp4": "/Bjorne-Omas-Portfolio/static/media/tower_LevelEditor.533acaa3.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.12161a38.js",
-    "static/js/2.ab855ea2.chunk.js",
-    "static/css/main.ee5a1285.chunk.css",
-    "static/js/main.e513f5d6.chunk.js"
+    "static/js/2.bad4dd40.chunk.js",
+    "static/css/main.047cee0e.chunk.css",
+    "static/js/main.f32e9863.chunk.js"
   ]
 }
