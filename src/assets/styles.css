@@ -1,8 +1,9 @@
 html,
 body {
   height: 100%;
-  font-family: "Georgia", sans-serif;
+  font-weight: 300;
   font-size: 20px;
+  font-weight: lighter;
   background-color: #181621;
   color: #ecebee;
 }
@@ -129,7 +130,7 @@ a {
   position: absolute;
   transition: 0.3s;
   color: transparent;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
   top: 18%;
   left: 0%;
@@ -144,10 +145,11 @@ a {
   position: absolute;
   transition: 0.3s;
   color: transparent;
-  top: 45%;
+  top: 50%;
   left: 50%;
   width: 80%;
   transform: translate(-50%, -50%);
+  font-family: "Raleway", sans-serif;
 }
 
 .projectPreview:hover .projectPreviewText {
@@ -158,7 +160,7 @@ a {
   position: absolute;
   font-style: italic;
   transition: 0.3s;
-  top: 88%;
+  top: 90%;
   left: 50%;
   font-size: 16px;
   color: transparent;
@@ -250,6 +252,7 @@ a {
   border-radius: 50%;
   margin-right: 50px;
   align-self: center;
+  padding-bottom: 20px;
 }
 
 .aboutSkills {
@@ -258,6 +261,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  font-family: "Raleway", sans-serif;
 }
 
 .skill {
@@ -291,15 +295,15 @@ a {
 }
 
 .programming .circle {
-  background-color: #28ca6b;
+  background-color: #1fa858;
 }
 
 .ux .circle {
-  background-color: #f14d59;
+  background-color: #da424c;
 }
 
 .gameDev .circle {
-  background-color: #b65def;
+  background-color: #9547c5;
 }
 
 .huge {

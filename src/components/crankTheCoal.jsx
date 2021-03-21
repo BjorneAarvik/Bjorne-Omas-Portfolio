@@ -84,9 +84,8 @@ const CrankTheCoal = () => {
       <p>
         The code for this game was quite simple to make, as there were no
         complex systems like enemy AI or loading and unloading objects
-        dynamically. My main focus was on balancing writing scalable and clean
-        code so finding bugs would be easier, and writing quick dirt code that
-        would get the job done.
+        dynamically. The main challenge was coding as quickly as possible while
+        still making the code solid enough to not cause lots of bugs and issues.
       </p>
       <h2>SFX and VFX</h2>
       <p>

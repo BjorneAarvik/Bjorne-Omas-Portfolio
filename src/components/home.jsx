@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div id="home">
       <h1>Hi, I'm Bjørne Oma</h1>
-      <h2>Programmer, UX designer and Game Developer</h2>
+      <h2>Programmer, Interaction Designer and Game Developer</h2>
       <Link
         className="myWorkButton"
         to="projectPlacement"

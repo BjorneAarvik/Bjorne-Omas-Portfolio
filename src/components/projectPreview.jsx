@@ -6,7 +6,7 @@ const ProjectPreview = ({ image, title, description, url }) => {
       <span style={{ display: "block" }}>
         <div className="projectPreview">
           <img className="projectPreviewImage" src={image} />
-          <p className="projectPreviewTitle">{title}</p>
+          <h2 className="projectPreviewTitle">{title}</h2>
           <p className="projectPreviewText">{description}</p>
           <p className="clickToSeeMore">Click To Read More</p>
         </div>

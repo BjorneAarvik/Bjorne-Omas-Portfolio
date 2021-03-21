@@ -15,8 +15,8 @@ const Projects = () => {
       id: 1,
     },
     {
-      title: "CHRISTMAS GAME",
-      description: "Typing game for young and old!",
+      title: "JOLASPELET 2020",
+      description: "Christmas' newest tradition",
       image: jolaspelet,
       url: "/jolaspelet",
       id: 2,

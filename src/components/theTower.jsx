@@ -44,27 +44,19 @@ const TheTower = () => {
       <div className="dirRow">
         <p>
           The layout of each level is stored in a scriptable object class named
-          Level Layout. Scriptable objects in Unity are scripts that can be
+          LevelLayout. Scriptable objects in Unity are scripts that can be
           instantiated on files in the project instead of on objects in the
-          scene. The Level Layout holds an array of all the hero starting
+          scene. Each Level Layout holds an array of all the hero starting
           positions and all the enemy starting positions in the level. The enemy
           starting positions also contain which color the enemy is, and which
           direction it starts in. With this system I can create new Level Layout
           files and set the position of all the units, as shown in the picture.
-          This is incredibly tedious, since you have to count out where each
-          piece is on the x- and y-axes. Luckily I had an idea on how to
-          simplify this process.
+          While this solution technically works, it is incredibly tedious, since
+          you have to count out where each piece is on the x- and y-axes.
+          Luckily I had an idea on how to simplify this process.
         </p>
         <img src={turnBasedLevelLayout} alt="" />
       </div>
-
-      {/*<p> THE ANIMATION QUEUE SYSTEM
-        To make what is happening on the enemies' turn I wanted to animate the
-        pieces instead of them snapping to the next turn instantly. To do this I
-        made an Animation Manager that uses a Sine Wave to first rotate the
-        enemies, then move them to their next location. While this was
-        happening, the buttons needed to be disabled, and so
-      </p>*/}
 
       <h2>The Level Editor</h2>
       <p>
@@ -75,12 +67,6 @@ const TheTower = () => {
         infinitely more intuitive.
       </p>
       <video src={levelEditor} controls></video>
-
-      <h2>Next Steps</h2>
-      <p>
-        If I was to build on this prototype and turn it into an actual game, I
-        would have three main goals.
-      </p>
     </div>
   );
 };

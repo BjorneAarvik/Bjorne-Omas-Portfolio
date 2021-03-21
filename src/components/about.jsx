@@ -27,11 +27,11 @@ const About = () => {
             <div className="tools">
               <div className="bigTools">
                 <div className="circle big">C#</div>
-                <div className="circle big">Git</div>
+                <div className="circle big">Python</div>
               </div>
               <div className="smallTools">
+                <div className="circle small">Git</div>
                 <div className="circle small">Javascript</div>
-                <div className="circle small">Python</div>
                 <div className="circle small">CSS</div>
                 <div className="circle small">React</div>
                 <div className="circle small">HTML</div>
@@ -39,7 +39,7 @@ const About = () => {
             </div>
           </div>
           <div className="skill ux">
-            <div className="circle huge">UX Design</div>
+            <div className="circle huge">Interaction Design</div>
             <div className="tools">
               <div className="bigTools">
                 <div className="circle big">
