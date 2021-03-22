@@ -1,9 +1,10 @@
 import ProjectPreview from "./projectPreview";
 import { useState } from "react";
-import crank from "../assets/images/CrankTheCoal.PNG";
+import crank from "../assets/images/Crank03.PNG";
 import jolaspelet from "../assets/images/Jolaspelet.PNG";
 import klimakalkulator from "../assets/images/Klimakalkulator.PNG";
 import turnBased from "../assets/images/TurnBased.PNG";
+import theBog from "../assets/images/TheBog.png";
 
 const Projects = () => {
   const [projects, setProjects] = useState([
@@ -35,11 +36,18 @@ const Projects = () => {
       url: "/theTower",
       id: 4,
     },
+    {
+      title: "THE BOG",
+      description: "Turn based puzzle game",
+      image: theBog,
+      url: "/theBog",
+      id: 5,
+    },
   ]);
 
   return (
     <div id="projects">
-      <h1 className="sectionHeader">Projects</h1>
+      <h1 className="sectionHeader"></h1>
       <div>
         {projects.map((project) => (
           <ProjectPreview

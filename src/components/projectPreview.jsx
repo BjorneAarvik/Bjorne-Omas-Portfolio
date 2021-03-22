@@ -5,10 +5,8 @@ const ProjectPreview = ({ image, title, description, url }) => {
     <Link to={url}>
       <span style={{ display: "block" }}>
         <div className="projectPreview">
-          <img className="projectPreviewImage" src={image} />
           <h2 className="projectPreviewTitle">{title}</h2>
-          <p className="projectPreviewText">{description}</p>
-          <p className="clickToSeeMore">Click To Read More</p>
+          <img className="projectPreviewImage" src={image} />
         </div>
       </span>
     </Link>

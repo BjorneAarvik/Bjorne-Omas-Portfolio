@@ -3,7 +3,8 @@ import avatar from "../assets/images/avatarImage.jpg";
 const About = () => {
   return (
     <div id="about">
-      <h1 className="sectionHeader">About</h1>
+      <div id="aboutBorder" />
+      {/*<h1 className="sectionHeader">About</h1>*/}
       <div>
         <div className="aboutText">
           <img alt="Bilde" src={avatar} className="avatar" />
@@ -39,7 +40,9 @@ const About = () => {
             </div>
           </div>
           <div className="skill ux">
-            <div className="circle huge">Interaction Design</div>
+            <div className="circle huge">
+              Interaction <br /> Design
+            </div>
             <div className="tools">
               <div className="bigTools">
                 <div className="circle big">

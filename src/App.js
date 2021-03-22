@@ -3,10 +3,11 @@ import "./assets/styles.css";
 import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./components/home";
 import Projects from "./components/projects";
-import crankTheCoal from "./components/crankTheCoal";
-import jolaspelet from "./components/jolaspelet";
-import Tower from "./components/theTower";
-import ClimateCalculator from "./components/climateCalculator";
+import crankTheCoal from "./components/projects/crankTheCoal";
+import jolaspelet from "./components/projects/jolaspelet";
+import Tower from "./components/projects/theTower";
+import ClimateCalculator from "./components/projects/climateCalculator";
+import TheBog from "./components/projects/theBog";
 import About from "./components/about";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/jolaspelet" component={jolaspelet} />
         <Route exact path="/theTower" component={Tower} />
         <Route exact path="/climateCalculator" component={ClimateCalculator} />
+        <Route exact path="/theBog" component={TheBog} />
         <About />
       </div>
     </Router>

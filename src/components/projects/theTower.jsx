@@ -1,7 +1,7 @@
-import turnBased from "../assets/images/TurnBased.PNG";
-import turnBasedLevelLayout from "../assets/images/TurnBasedLevelLayout.PNG";
-import levelEditor from "../assets/videos/tower_LevelEditor.mp4";
-import level1 from "../assets/videos/tower_Level1.mp4";
+import turnBased from "../../assets/images/TurnBased.PNG";
+import turnBasedLevelLayout from "../../assets/images/TurnBasedLevelLayout.PNG";
+import levelEditor from "../../assets/videos/tower_LevelEditor.mp4";
+import level1 from "../../assets/videos/tower_Level1.mp4";
 
 const TheTower = () => {
   return (

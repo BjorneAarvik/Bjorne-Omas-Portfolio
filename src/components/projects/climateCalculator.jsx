@@ -1,6 +1,6 @@
-import image01 from "../assets/images/Climate01.png";
-import image02 from "../assets/images/Climate02.png";
-import image03 from "../assets/images/Climate03.png";
+import image01 from "../../assets/images/Climate01.png";
+import image02 from "../../assets/images/Climate02.png";
+import image03 from "../../assets/images/Climate03.png";
 
 const ClimateCalculator = () => {
   return (

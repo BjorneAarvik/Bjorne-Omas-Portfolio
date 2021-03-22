@@ -1,7 +1,7 @@
-import jolaspelet2019 from "../assets/videos/Jolaspelet2019.mp4";
-import jolaspeletVideo from "../assets/videos/Jolaspelet2020Gameplay.mp4";
-import imgAction from "../assets/images/JolaspeletAction.png";
-import imgHighScore from "../assets/images/JolaspeletHighScore.png";
+import jolaspelet2019 from "../../assets/videos/Jolaspelet2019.mp4";
+import jolaspeletVideo from "../../assets/videos/Jolaspelet2020Gameplay.mp4";
+import imgAction from "../../assets/images/JolaspeletAction.png";
+import imgHighScore from "../../assets/images/JolaspeletHighScore.png";
 
 const Jolaspelet = () => {
   return (

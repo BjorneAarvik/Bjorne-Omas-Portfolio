@@ -1,9 +1,9 @@
-import img3 from "../assets/images/Crank03.PNG";
-import trello from "../assets/images/CrankTrello.PNG";
-import catapult from "../assets/images/CrankCatapult.png";
-import anim1 from "../assets/videos/CamperSitting.mp4";
-import anim2 from "../assets/videos/Idle.mp4";
-import anim3 from "../assets/videos/Run.mp4";
+import img3 from "../../assets/images/Crank03.PNG";
+import trello from "../../assets/images/CrankTrello.PNG";
+import catapult from "../../assets/images/CrankCatapult.png";
+import anim1 from "../../assets/videos/CamperSitting.mp4";
+import anim2 from "../../assets/videos/Idle.mp4";
+import anim3 from "../../assets/videos/Run.mp4";
 
 const CrankTheCoal = () => {
   return (
