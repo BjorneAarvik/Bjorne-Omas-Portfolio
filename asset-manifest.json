@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.c7e6785d.chunk.css",
-    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.3c92bd00.chunk.js",
-    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.3c92bd00.chunk.js.map",
+    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.875ce31d.chunk.css",
+    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.ed1282cd.chunk.js",
+    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.ed1282cd.chunk.js.map",
     "runtime-main.js": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js",
     "runtime-main.js.map": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js.map",
     "static/js/2.bad4dd40.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b39c07a9.chunk.js": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js",
     "static/js/3.b39c07a9.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js.map",
     "index.html": "/Bjorne-Omas-Portfolio/index.html",
-    "static/css/main.c7e6785d.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.c7e6785d.chunk.css.map",
+    "static/css/main.875ce31d.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.875ce31d.chunk.css.map",
     "static/js/2.bad4dd40.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js.LICENSE.txt",
     "static/media/CamperSitting.bb5f2b9d.mp4": "/Bjorne-Omas-Portfolio/static/media/CamperSitting.bb5f2b9d.mp4",
     "static/media/Climate01.2258a5da.png": "/Bjorne-Omas-Portfolio/static/media/Climate01.2258a5da.png",
@@ -18,7 +18,6 @@
     "static/media/Climate03.caa934f7.png": "/Bjorne-Omas-Portfolio/static/media/Climate03.caa934f7.png",
     "static/media/Crank03.ceebe8f6.PNG": "/Bjorne-Omas-Portfolio/static/media/Crank03.ceebe8f6.PNG",
     "static/media/CrankCatapult.e65b1174.png": "/Bjorne-Omas-Portfolio/static/media/CrankCatapult.e65b1174.png",
-    "static/media/CrankTheCoal.0f2beb27.PNG": "/Bjorne-Omas-Portfolio/static/media/CrankTheCoal.0f2beb27.PNG",
     "static/media/CrankTrello.828d6fa2.PNG": "/Bjorne-Omas-Portfolio/static/media/CrankTrello.828d6fa2.PNG",
     "static/media/Idle.fae493c2.mp4": "/Bjorne-Omas-Portfolio/static/media/Idle.fae493c2.mp4",
     "static/media/Jolaspelet.e9b2db5b.PNG": "/Bjorne-Omas-Portfolio/static/media/Jolaspelet.e9b2db5b.PNG",
@@ -28,6 +27,7 @@
     "static/media/JolaspeletHighScore.ef5ddd40.png": "/Bjorne-Omas-Portfolio/static/media/JolaspeletHighScore.ef5ddd40.png",
     "static/media/Klimakalkulator.ed21dff9.PNG": "/Bjorne-Omas-Portfolio/static/media/Klimakalkulator.ed21dff9.PNG",
     "static/media/Run.805b57c2.mp4": "/Bjorne-Omas-Portfolio/static/media/Run.805b57c2.mp4",
+    "static/media/TheBog.2e7a4ddd.png": "/Bjorne-Omas-Portfolio/static/media/TheBog.2e7a4ddd.png",
     "static/media/TurnBased.bc104423.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBased.bc104423.PNG",
     "static/media/TurnBasedLevelLayout.47e02d48.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBasedLevelLayout.47e02d48.PNG",
     "static/media/avatarImage.4317f6b6.jpg": "/Bjorne-Omas-Portfolio/static/media/avatarImage.4317f6b6.jpg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.12161a38.js",
     "static/js/2.bad4dd40.chunk.js",
-    "static/css/main.c7e6785d.chunk.css",
-    "static/js/main.3c92bd00.chunk.js"
+    "static/css/main.875ce31d.chunk.css",
+    "static/js/main.ed1282cd.chunk.js"
   ]
 }
