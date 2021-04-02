@@ -1,12 +1,33 @@
+import { Link } from "react-scroll";
+import { useHistory } from "react-router-dom";
+
 import jolaspelet2019 from "../../assets/videos/Jolaspelet2019.mp4";
 import jolaspeletVideo from "../../assets/videos/Jolaspelet2020Gameplay.mp4";
 import imgAction from "../../assets/images/JolaspeletAction.png";
 import imgHighScore from "../../assets/images/JolaspeletHighScore.png";
 
 const Jolaspelet = () => {
+  const history = useHistory();
+
+  function routeToHome() {
+    history.push("/");
+  }
+
   return (
     <div className="project">
-      <h1 className="sectionHeader">Jolaspelet 2020</h1>
+      <div className="projectHeader">
+        <Link
+          to="projectPlacement"
+          spy={true}
+          smooth={true}
+          duration={500}
+          onClick={routeToHome}
+        >
+          <i className="arrow"></i>
+        </Link>
+
+        <h1 className="projectTitle">Jolaspelet 2020</h1>
+      </div>
       <p>
         Jolaspelet 2020 (translates to "The Christmas Game") is a game I made
         for me and my wife's families to compete in during the christmas

@@ -1,12 +1,33 @@
+import { Link } from "react-scroll";
+import { useHistory } from "react-router-dom";
+
 import turnBased from "../../assets/images/TurnBased.PNG";
 import turnBasedLevelLayout from "../../assets/images/TurnBasedLevelLayout.PNG";
 import levelEditor from "../../assets/videos/tower_LevelEditor.mp4";
 import level1 from "../../assets/videos/tower_Level1.mp4";
 
 const TheTower = () => {
+  const history = useHistory();
+
+  function routeToHome() {
+    history.push("/");
+  }
+
   return (
     <div className="project">
-      <h1 className="sectionHeader">The Tower</h1>
+      <div className="projectHeader">
+        <Link
+          to="projectPlacement"
+          spy={true}
+          smooth={true}
+          duration={500}
+          onClick={routeToHome}
+        >
+          <i className="arrow"></i>
+        </Link>
+
+        <h1 className="projectTitle">The Tower</h1>
+      </div>
       <p>
         The Tower is a turn-based puzzle game about getting colored boxes to
         their colors side of a tower. I made the prototype in about a week, and

@@ -4,16 +4,9 @@ const About = () => {
   return (
     <div id="about">
       <div id="aboutBorder" />
-      {/*<h1 className="sectionHeader">About</h1>*/}
       <div>
         <div className="aboutText">
           <img alt="Bilde" src={avatar} className="avatar" />
-          <p>
-            My name is Bjørne Oma. I am 22 years old, and currently live in
-            Bergen, where I am taking a bachelors degree in Media- and
-            Interaction Design. I love making games, and I also love making
-            software that makes people's lives easier.
-          </p>
           <p>
             bjorneoma@gmail.com <br />
             957 84 182 <br />
@@ -23,64 +16,15 @@ const About = () => {
           </p>
         </div>
         <div className="aboutSkills">
-          <div className="skill programming">
-            <div className="circle huge">Programming</div>
-            <div className="tools">
-              <div className="bigTools">
-                <div className="circle big">C#</div>
-                <div className="circle big">Python</div>
-              </div>
-              <div className="smallTools">
-                <div className="circle small">Git</div>
-                <div className="circle small">Javascript</div>
-                <div className="circle small">CSS</div>
-                <div className="circle small">React</div>
-                <div className="circle small">HTML</div>
-              </div>
-            </div>
+          <div className="skills">
+            <h2 className="skillTitle">CONFIDENT WITH</h2>
+            <p className="skillsText">C#, Google Design Sprint, Figma, Unity</p>
           </div>
-          <div className="skill ux">
-            <div className="circle huge">
-              Interaction <br /> Design
-            </div>
-            <div className="tools">
-              <div className="bigTools">
-                <div className="circle big">
-                  Google
-                  <br /> Design
-                  <br /> Sprint
-                </div>
-                <div className="circle big">Figma</div>
-                <div className="circle big">
-                  User
-                  <br /> Testing
-                </div>
-              </div>
-              <div className="smallTools">
-                <div className="circle small">Adobe XD</div>
-                <div className="circle small">
-                  Design
-                  <br /> Thinking
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="skill gameDev">
-            <div className="circle huge">
-              Game
-              <br />
-              Development
-            </div>
-            <div className="tools">
-              <div className="bigTools">
-                <div className="circle big">Unity</div>
-                <div className="circle big">C#</div>
-              </div>
-              <div className="smallTools">
-                <div className="circle small">Blender</div>
-                <div className="circle small">Krita</div>
-              </div>
-            </div>
+          <div className="skills">
+            <h2 className="skillTitle">COMFORTABLE WITH</h2>
+            <p className="skillsText">
+              Python, Git, Javascript, HTML, CSS, React, Adobe XD, Blender
+            </p>
           </div>
         </div>
       </div>

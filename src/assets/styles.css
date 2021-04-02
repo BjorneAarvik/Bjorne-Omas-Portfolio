@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   font-size: 20px;
   font-weight: lighter;
-  background-color: #ffc3c4;
+  background-color: #f5f4ef;
   color: #0a0a0a;
   font-family: "PT Serif", serif;
 }
@@ -14,7 +14,7 @@ h1 {
   margin-bottom: 0;
   text-align: center;
   margin-bottom: 10px;
-  color: #fefefe;
+  color: #f5f4ef;
 }
 
 h2 {
@@ -31,15 +31,6 @@ a {
   color: #2d4a70;
 }
 
-.sectionHeader {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  padding-top: 150px;
-  text-decoration: underline;
-  color: #0a0a0a;
-}
-
 #home {
   display: flex;
   flex-direction: column;
@@ -47,22 +38,35 @@ a {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(#455985, #6c91c2);
-  /*background-color: #6c91c2;*/
+  background: radial-gradient(at top left, #e31b59, #1b242f);
+  color: #f5f4ef;
+}
+
+.homeText {
+  width: 50%;
+  font-size: 20px;
+  font-weight: 450;
+  margin-top: 30px;
+}
+
+.homeText span {
+  font-weight: 750;
 }
 
 .myWorkButton {
-  margin-top: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 50px;
-  background-color: rgb(180, 43, 71);
-  text-decoration: none;
-  color: #fefefe;
-  text-align: center;
+  margin-top: 80px;
+  color: #f5f4ef;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  border: solid #f5f4ef 2px;
+  transition: 0.1s ease-out;
+}
+
+.myWorkButton:hover {
+  border: solid #f5f4ef 4px;
+  padding: 8px;
 }
 
 .navBar {
@@ -72,21 +76,22 @@ a {
   justify-content: center;
   z-index: 10;
   border-bottom: #0a0a0a solid 2px;
-  background-color: #ffc3c4;
+  background-color: #1b242f;
 }
 
 .navBar li {
   display: inline;
-  height: 50px;
+  margin-top: -20px;
+  padding-top: -20px;
 }
 
 .navBar a {
   text-decoration: none;
-  color: #0a0a0a;
-  font-size: 20px;
+  color: #f5f4ef;
+  font-size: 18px;
   transition: 0.2s ease-in;
-  height: 50px;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
@@ -94,11 +99,12 @@ a {
 }
 
 .navBar a:hover {
-  border-bottom: #0a0a0a 2px solid;
+  border-bottom: #f5f4ef 2px solid;
 }
 
 #projects {
   min-height: 100vh;
+  padding-top: 100px;
 }
 
 #projects > div {
@@ -113,28 +119,33 @@ a {
 .projectPreview {
   width: 390px;
   height: 300px;
-  transition: 0.3s;
+  transition: 0.1s;
   text-align: center;
   position: relative;
   margin: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .projectPreviewImage {
   width: 390px;
   height: 300px;
-  transition: 0.5s ease-out;
+  transition: 0.4s ease-out;
   border: transparent solid 8px;
   object-fit: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(50%);
 }
 
 .projectPreview:hover .projectPreviewImage {
-  border: #0a0a0a solid 8px;
+  border: #1b242f solid 8px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: none;
 }
 
 .projectPreviewTitle {
   width: 100%;
-  color: #0a0a0a;
+  color: #1b242f;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: -4px;
@@ -143,37 +154,8 @@ a {
   font-weight: 500;
   display: inline-block;
   text-decoration: none;
+  margin-left: 8px;
 }
-/*
-.projectPreviewText {
-  position: absolute;
-  transition: 0.3s;
-  color: transparent;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  transform: translate(-50%, -50%);
-  font-family: "Poppins", sans-serif;
-}
-
-.projectPreview:hover .projectPreviewText {
-  color: rgb(253, 197, 208);
-}
-
-.clickToSeeMore {
-  position: absolute;
-  font-style: italic;
-  transition: 0.3s;
-  top: 90%;
-  left: 50%;
-  font-size: 16px;
-  color: transparent;
-  transform: translate(-50%, -50%);
-}
-
-.projectPreview:hover .clickToSeeMore {
-  color: white;
-}*/
 
 .project {
   min-height: 100vh;
@@ -182,14 +164,47 @@ a {
   flex-direction: column;
   text-align: left;
   width: 40%;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.project .sectionHeader {
+.projectHeader {
+  display: inline-block;
+}
+
+.projectTitle {
+  display: inline-block;
   margin-bottom: 40px;
+  text-decoration: underline;
+  color: #0a0a0a;
+  text-align: center;
+  text-anchor: middle;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  width: 90%;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  cursor: pointer;
 }
 
 .project p {
   font-size: 18px;
+}
+
+.imageText {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: -35px;
+  color: #505050;
+  padding-bottom: 20px;
 }
 
 .project img {
@@ -205,7 +220,7 @@ a {
 .project .dirRow {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .project .dirRow p {
@@ -215,6 +230,8 @@ a {
 .project .dirRow img {
   width: 50%;
   padding-left: 5%;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .project .dirRow video {
@@ -240,12 +257,14 @@ a {
   position: absolute;
   width: 40%;
   left: 30%;
+  padding-bottom: 200px;
 }
 
 #about > div {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .aboutText {
@@ -253,17 +272,15 @@ a {
   margin-right: 100px;
   display: flex;
   flex-direction: column;
-  width: 400px;
-  text-align: left;
 }
 
 .avatar {
   height: 250px;
   width: 250px;
-  border-radius: 50%;
   margin-right: 50px;
+  margin-bottom: 30px;
   align-self: center;
-  padding-bottom: 20px;
+  border: #0a0a0a solid 4px;
 }
 
 .aboutSkills {
@@ -271,67 +288,33 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   font-family: "PT Serif", serif;
 }
 
-.skill {
-  display: flex;
-  flex-direction: row;
+.skills {
+  width: 400px;
 }
 
-.tools {
-  display: flex;
-  flex-direction: column;
-}
-
-.bigTools {
-  display: flex;
-  flex-direction: row;
-}
-
-.smallTools {
-  display: flex;
-  flex-direction: row;
-}
-
-.circle {
-  margin: 10px;
-  display: flex;
-  background-color: inherit;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  padding: 5px;
-}
-
-.programming .circle {
-  background-color: #6c91c2;
-}
-
-.ux .circle {
-  background-color: #da424c;
-}
-
-.gameDev .circle {
-  background-color: #9547c5;
-}
-
-.huge {
-  width: 200px;
-  height: 200px;
-  font-size: 24px;
-}
-
-.big {
-  width: 100px;
-  height: 100px;
+.skillTitle {
+  display: inline-block;
+  color: #0a0a0a;
+  text-align: center;
+  text-anchor: middle;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  width: 90%;
   font-size: 20px;
+  margin-bottom: 0px;
 }
 
-.small {
-  width: 80px;
-  height: 80px;
-  font-size: 16px;
+.skillsText {
+  width: 100%;
+  height: 100px;
+  border-top: #0a0a0a solid 4px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }

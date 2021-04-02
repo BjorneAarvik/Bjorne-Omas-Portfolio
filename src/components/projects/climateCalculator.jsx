@@ -1,11 +1,32 @@
+import { Link } from "react-scroll";
+import { useHistory } from "react-router-dom";
+
 import image01 from "../../assets/images/Climate01.png";
 import image02 from "../../assets/images/Climate02.png";
 import image03 from "../../assets/images/Climate03.png";
 
 const ClimateCalculator = () => {
+  const history = useHistory();
+
+  function routeToHome() {
+    history.push("/");
+  }
+
   return (
     <div className="project">
-      <h1 className="sectionHeader">Climate Calculator</h1>
+      <div className="projectHeader">
+        <Link
+          to="projectPlacement"
+          spy={true}
+          smooth={true}
+          duration={500}
+          onClick={routeToHome}
+        >
+          <i className="arrow"></i>
+        </Link>
+
+        <h1 className="projectTitle">Climate Calculator</h1>
+      </div>
       <p>
         This is a prototype made for NRK in a school project. I worked in a
         group of four students to make a climate calculator that would be more
