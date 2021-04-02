@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.875ce31d.chunk.css",
-    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.ed1282cd.chunk.js",
-    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.ed1282cd.chunk.js.map",
+    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.4760c817.chunk.css",
+    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.3cdec85a.chunk.js",
+    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.3cdec85a.chunk.js.map",
     "runtime-main.js": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js",
     "runtime-main.js.map": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js.map",
-    "static/js/2.bad4dd40.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js",
-    "static/js/2.bad4dd40.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js.map",
+    "static/js/2.b4334a0f.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.b4334a0f.chunk.js",
+    "static/js/2.b4334a0f.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/2.b4334a0f.chunk.js.map",
     "static/js/3.b39c07a9.chunk.js": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js",
     "static/js/3.b39c07a9.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js.map",
     "index.html": "/Bjorne-Omas-Portfolio/index.html",
-    "static/css/main.875ce31d.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.875ce31d.chunk.css.map",
-    "static/js/2.bad4dd40.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.bad4dd40.chunk.js.LICENSE.txt",
+    "static/css/main.4760c817.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.4760c817.chunk.css.map",
+    "static/js/2.b4334a0f.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.b4334a0f.chunk.js.LICENSE.txt",
     "static/media/CamperSitting.bb5f2b9d.mp4": "/Bjorne-Omas-Portfolio/static/media/CamperSitting.bb5f2b9d.mp4",
     "static/media/Climate01.2258a5da.png": "/Bjorne-Omas-Portfolio/static/media/Climate01.2258a5da.png",
     "static/media/Climate02.133f204a.png": "/Bjorne-Omas-Portfolio/static/media/Climate02.133f204a.png",
@@ -28,6 +28,8 @@
     "static/media/Klimakalkulator.ed21dff9.PNG": "/Bjorne-Omas-Portfolio/static/media/Klimakalkulator.ed21dff9.PNG",
     "static/media/Run.805b57c2.mp4": "/Bjorne-Omas-Portfolio/static/media/Run.805b57c2.mp4",
     "static/media/TheBog.2e7a4ddd.png": "/Bjorne-Omas-Portfolio/static/media/TheBog.2e7a4ddd.png",
+    "static/media/TheBog01.c0a2ba03.png": "/Bjorne-Omas-Portfolio/static/media/TheBog01.c0a2ba03.png",
+    "static/media/TheBog02.d7b6582c.png": "/Bjorne-Omas-Portfolio/static/media/TheBog02.d7b6582c.png",
     "static/media/TurnBased.bc104423.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBased.bc104423.PNG",
     "static/media/TurnBasedLevelLayout.47e02d48.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBasedLevelLayout.47e02d48.PNG",
     "static/media/avatarImage.4317f6b6.jpg": "/Bjorne-Omas-Portfolio/static/media/avatarImage.4317f6b6.jpg",
@@ -36,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.12161a38.js",
-    "static/js/2.bad4dd40.chunk.js",
-    "static/css/main.875ce31d.chunk.css",
-    "static/js/main.ed1282cd.chunk.js"
+    "static/js/2.b4334a0f.chunk.js",
+    "static/css/main.4760c817.chunk.css",
+    "static/js/main.3cdec85a.chunk.js"
   ]
 }
