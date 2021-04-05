@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.4760c817.chunk.css",
-    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.3cdec85a.chunk.js",
-    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.3cdec85a.chunk.js.map",
+    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.2157792f.chunk.css",
+    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.f29018c6.chunk.js",
+    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.f29018c6.chunk.js.map",
     "runtime-main.js": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js",
     "runtime-main.js.map": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js.map",
     "static/js/2.b4334a0f.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.b4334a0f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b39c07a9.chunk.js": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js",
     "static/js/3.b39c07a9.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js.map",
     "index.html": "/Bjorne-Omas-Portfolio/index.html",
-    "static/css/main.4760c817.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.4760c817.chunk.css.map",
+    "static/css/main.2157792f.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.2157792f.chunk.css.map",
     "static/js/2.b4334a0f.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.b4334a0f.chunk.js.LICENSE.txt",
     "static/media/CamperSitting.bb5f2b9d.mp4": "/Bjorne-Omas-Portfolio/static/media/CamperSitting.bb5f2b9d.mp4",
     "static/media/Climate01.2258a5da.png": "/Bjorne-Omas-Portfolio/static/media/Climate01.2258a5da.png",
@@ -32,14 +32,14 @@
     "static/media/TheBog02.d7b6582c.png": "/Bjorne-Omas-Portfolio/static/media/TheBog02.d7b6582c.png",
     "static/media/TurnBased.bc104423.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBased.bc104423.PNG",
     "static/media/TurnBasedLevelLayout.47e02d48.PNG": "/Bjorne-Omas-Portfolio/static/media/TurnBasedLevelLayout.47e02d48.PNG",
-    "static/media/avatarImage.4317f6b6.jpg": "/Bjorne-Omas-Portfolio/static/media/avatarImage.4317f6b6.jpg",
+    "static/media/avatarImage.ebd61a35.jpg": "/Bjorne-Omas-Portfolio/static/media/avatarImage.ebd61a35.jpg",
     "static/media/tower_Level1.e95f308a.mp4": "/Bjorne-Omas-Portfolio/static/media/tower_Level1.e95f308a.mp4",
     "static/media/tower_LevelEditor.533acaa3.mp4": "/Bjorne-Omas-Portfolio/static/media/tower_LevelEditor.533acaa3.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.12161a38.js",
     "static/js/2.b4334a0f.chunk.js",
-    "static/css/main.4760c817.chunk.css",
-    "static/js/main.3cdec85a.chunk.js"
+    "static/css/main.2157792f.chunk.css",
+    "static/js/main.f29018c6.chunk.js"
   ]
 }
