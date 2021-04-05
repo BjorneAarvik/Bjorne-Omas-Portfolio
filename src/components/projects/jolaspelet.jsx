@@ -66,21 +66,20 @@ const Jolaspelet = () => {
         fit for the input of the game.
       </p>
       <h2>High Score</h2>
-      <div className="dirRow">
-        <p>
-          In 2019 the high score system was made up of rumors going around the
-          block, and while that had it's own charm I wanted to go bigger in
-          2020. I ended up creating a high score board that could be accessed in
-          the game and at{" "}
-          <a href="https://jolaspelet.no" target="_blank">
-            jolaspelet.no
-          </a>
-          . This ended up working great, and checking the website for any new
-          records became an exciting part of the holiday. It was also a great
-          opportunity for me to try out web requests in Unity.
-        </p>
-        <img src={imgHighScore} alt="" />
-      </div>
+      <p>
+        In 2019 the high score system was made up of rumors going around the
+        block, and while that had it's own charm I wanted to go bigger in 2020.
+        I ended up creating a high score board that could be accessed in the
+        game and at{" "}
+        <a href="https://jolaspelet.no" target="_blank">
+          jolaspelet.no
+        </a>
+        , a website my brother in law, Fred Carlsen created. This ended up
+        working great, and checking the website for any new records became an
+        exciting part of the holiday. It was also a great opportunity for me to
+        try out web requests in Unity.
+      </p>
+      <img src={imgHighScore} alt="" />
 
       <h2>The Verdict</h2>
       <p>

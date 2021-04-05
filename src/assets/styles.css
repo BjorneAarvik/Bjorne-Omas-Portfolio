@@ -75,7 +75,6 @@ a {
   display: flex;
   justify-content: center;
   z-index: 10;
-  border-bottom: #0a0a0a solid 2px;
   background-color: #1b242f;
 }
 
@@ -274,7 +273,7 @@ a {
   flex-direction: column;
 }
 
-.avatar {
+.profileImage {
   height: 250px;
   width: 250px;
   margin-right: 50px;
@@ -317,4 +316,80 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  .homeText {
+    width: 80%;
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  #projects > div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .projectPreview {
+    width: 90%;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .projectPreviewImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .projectPreviewTitle {
+    width: 100%;
+    color: #1b242f;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -4px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+
+  .project {
+    width: 95%;
+  }
+
+  #about > div {
+    flex-direction: column-reverse;
+  }
+
+  .aboutText {
+    margin-right: 0;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #aboutBorder {
+    padding-bottom: 0px;
+  }
+
+  .aboutSkills {
+    padding-top: 0px;
+  }
+
+  .skills {
+    width: 80%;
+  }
+
+  .profileImage {
+    margin: 0;
+  }
 }

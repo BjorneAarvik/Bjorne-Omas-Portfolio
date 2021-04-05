@@ -6,7 +6,7 @@ const About = () => {
       <div id="aboutBorder" />
       <div>
         <div className="aboutText">
-          <img alt="Bilde" src={avatar} className="avatar" />
+          <img alt="Bilde" src={avatar} className="profileImage" />
           <p>
             bjorneoma@gmail.com <br />
             957 84 182 <br />

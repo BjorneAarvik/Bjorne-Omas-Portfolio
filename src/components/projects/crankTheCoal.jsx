@@ -128,7 +128,7 @@ const CrankTheCoal = () => {
         Even though I only had one week to complete the game, I wanted it to
         feel good to play. I therefore spent quite a bit of time finding sound
         effects and mixing them together. I found the sound effects on
-        Zapsplat.com, which had everything I need from enginge noise to trees
+        Zapsplat.com, which had everything I needed from enginge noise to trees
         falling and people shouting. I processed the audio in Audacity, and I
         think it turned out great!
       </p>
