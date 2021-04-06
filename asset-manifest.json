@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.2157792f.chunk.css",
-    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.f29018c6.chunk.js",
-    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.f29018c6.chunk.js.map",
+    "main.css": "/Bjorne-Omas-Portfolio/static/css/main.a61a8bba.chunk.css",
+    "main.js": "/Bjorne-Omas-Portfolio/static/js/main.b2800411.chunk.js",
+    "main.js.map": "/Bjorne-Omas-Portfolio/static/js/main.b2800411.chunk.js.map",
     "runtime-main.js": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js",
     "runtime-main.js.map": "/Bjorne-Omas-Portfolio/static/js/runtime-main.12161a38.js.map",
     "static/js/2.b4334a0f.chunk.js": "/Bjorne-Omas-Portfolio/static/js/2.b4334a0f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b39c07a9.chunk.js": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js",
     "static/js/3.b39c07a9.chunk.js.map": "/Bjorne-Omas-Portfolio/static/js/3.b39c07a9.chunk.js.map",
     "index.html": "/Bjorne-Omas-Portfolio/index.html",
-    "static/css/main.2157792f.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.2157792f.chunk.css.map",
+    "static/css/main.a61a8bba.chunk.css.map": "/Bjorne-Omas-Portfolio/static/css/main.a61a8bba.chunk.css.map",
     "static/js/2.b4334a0f.chunk.js.LICENSE.txt": "/Bjorne-Omas-Portfolio/static/js/2.b4334a0f.chunk.js.LICENSE.txt",
     "static/media/CamperSitting.bb5f2b9d.mp4": "/Bjorne-Omas-Portfolio/static/media/CamperSitting.bb5f2b9d.mp4",
     "static/media/Climate01.2258a5da.png": "/Bjorne-Omas-Portfolio/static/media/Climate01.2258a5da.png",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.12161a38.js",
     "static/js/2.b4334a0f.chunk.js",
-    "static/css/main.2157792f.chunk.css",
-    "static/js/main.f29018c6.chunk.js"
+    "static/css/main.a61a8bba.chunk.css",
+    "static/js/main.b2800411.chunk.js"
   ]
 }
