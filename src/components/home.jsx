@@ -1,6 +1,13 @@
 import { Link } from "react-scroll";
+import { React, useEffect, useState } from "react";
+import { useHistory } from "react-router-dom";
 
 const Home = () => {
+  const history = useHistory();
+
+  function routeToHome() {
+    history.push("/");
+  }
   return (
     <div id="home">
       <h1>Hi, I'm Bjørne Oma</h1>
@@ -16,6 +23,7 @@ const Home = () => {
         smooth={true}
         duration={500}
         offset={1}
+        onClick={routeToHome}
       >
         View My Work
       </Link>

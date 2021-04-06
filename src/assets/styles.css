@@ -78,19 +78,22 @@ a {
   background-color: #1b242f;
 }
 
+.navBar ul {
+  text-align: center;
+  padding-left: 0px;
+}
+
 .navBar li {
-  display: inline;
-  margin-top: -20px;
-  padding-top: -20px;
+  display: inline-block;
 }
 
 .navBar a {
+  margin-left: 10px;
+  margin-right: 10px;
   text-decoration: none;
   color: #f5f4ef;
   font-size: 18px;
   transition: 0.2s ease-in;
-  margin-left: 20px;
-  margin-right: 20px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
@@ -181,7 +184,7 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: center;
-  width: 90%;
+  width: calc(100% - 34px);
 }
 
 .arrow {
@@ -329,28 +332,28 @@ a {
   }
 
   #projects > div {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
     margin-left: 0px;
     margin-right: 0px;
+    align-items: center;
   }
 
   .projectPreview {
-    width: 90%;
+    width: 100%;
     height: 200px;
     margin-left: 0px;
     margin-right: 0px;
   }
 
   .projectPreviewImage {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    margin-right: 0px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: none;
   }
 
   .projectPreviewTitle {
-    width: 100%;
+    width: 90%;
     color: #1b242f;
     font-size: 24px;
     font-weight: bold;
@@ -364,21 +367,18 @@ a {
   }
 
   .project {
-    width: 95%;
+    width: 90%;
   }
 
   #about > div {
     flex-direction: column-reverse;
+    padding-top: 0px;
   }
 
   .aboutText {
     margin-right: 0;
     text-align: center;
     flex-direction: column;
-  }
-
-  #aboutBorder {
-    padding-bottom: 0px;
   }
 
   .aboutSkills {
