@@ -23,7 +23,7 @@ const About = () => {
           <div className="skills">
             <h2 className="skillTitle">COMFORTABLE WITH</h2>
             <p className="skillsText">
-              Python, Git, Javascript, HTML, CSS, React, Adobe XD, Blender
+              Python, Git, Javascript, HTML, CSS, React, Adobe XD, Blender, SQL
             </p>
           </div>
         </div>
