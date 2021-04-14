@@ -9,6 +9,7 @@ import Tower from "./components/projects/theTower";
 import ClimateCalculator from "./components/projects/climateCalculator";
 import TheBog from "./components/projects/theBog";
 import About from "./components/about";
+import BlackboardNightMare from "./components/projects/blackboardNightmare";
 
 function App() {
   return (
@@ -23,6 +24,11 @@ function App() {
         <Route exact path="/theTower" component={Tower} />
         <Route exact path="/climateCalculator" component={ClimateCalculator} />
         <Route exact path="/theBog" component={TheBog} />
+        <Route
+          exact
+          path="/blackboardNightmare"
+          component={BlackboardNightMare}
+        />
         <About />
       </div>
     </Router>

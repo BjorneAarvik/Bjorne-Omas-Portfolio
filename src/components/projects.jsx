@@ -6,42 +6,44 @@ import jolaspelet from "../assets/images/Jolaspelet.PNG";
 import klimakalkulator from "../assets/images/Klimakalkulator.PNG";
 import turnBased from "../assets/images/TurnBased.PNG";
 import theBog from "../assets/images/TheBog.png";
+import blackboardNightmare from "../assets/images/blackboardNightmare.PNG";
 
 const Projects = () => {
   const [projects, setProjects] = useState([
     {
       title: "CRANK THE COAL, BOB",
-      description: "2-player local coop-game",
       image: crank,
       url: "/crankthecoal",
       id: 1,
     },
     {
       title: "JOLASPELET 2020",
-      description: "Christmas' newest tradition",
       image: jolaspelet,
       url: "/jolaspelet",
       id: 2,
     },
     {
       title: "CLIMATE CALCULATOR",
-      description: "Climate Calculator prototype made for NRK",
       image: klimakalkulator,
       url: "/climateCalculator",
       id: 3,
     },
     {
       title: "THE TOWER",
-      description: "Turn based puzzle game",
       image: turnBased,
       url: "/theTower",
       id: 4,
     },
     {
       title: "THE BOG",
-      description: "Turn based puzzle game",
       image: theBog,
       url: "/theBog",
+      id: 5,
+    },
+    {
+      title: "BLACKBOARD NIGHTMARE",
+      image: blackboardNightmare,
+      url: "/blackboardNightMare",
       id: 5,
     },
   ]);
@@ -54,7 +56,6 @@ const Projects = () => {
           <ProjectPreview
             image={project.image}
             title={project.title}
-            description={project.description}
             url={project.url}
             key={project.id}
           />
